@@ -1,6 +1,7 @@
 import './App.css';
 import Counter from './Components/Counter';
 import HookCounter from './Components/HookCounter';
+import HookCounterThree from './Components/HookCounterThree';
 import HookCounterTwo from './Components/HookCounterTwo';
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <HookCounter/>
       <hr/>
       <HookCounterTwo/>
+      <hr/>
+      <HookCounterThree/>
       <hr/>
     </div>
   );
