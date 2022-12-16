@@ -20,7 +20,6 @@ function App() {
       <HookCounterFour/>
       <hr/>
       <FormTest/>
-      <hr/>
     </div>
   );
 }
