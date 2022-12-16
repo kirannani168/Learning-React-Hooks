@@ -6,6 +6,7 @@ import HookCounterFour from './Components/HookCounterFour';
 import HookCounterThree from './Components/HookCounterThree';
 import HookCounterTwo from './Components/HookCounterTwo';
 import LifeCycleTest from './Components/LifeCycleTest';
+import UseEffect from './Components/UseEffect';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,8 @@ function App() {
       <FormTest/>
       <hr></hr>
       <LifeCycleTest/>
+      <hr/>
+      <UseEffect/>
     </div>
   );
 }
